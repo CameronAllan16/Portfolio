@@ -7,10 +7,10 @@
   bottom: 0;
   left: 0;
   flex: 0 0 auto;
-  border-top: 1px solid black;
   position: fixed;
   height: 10vh;
   z-index: 9999;
+  box-shadow: .1rem 0rem 1rem -0.8rem hsla(0, 0%, 17.6%, 0.3);
 }
 
 .socials {
@@ -22,7 +22,6 @@
 
 .link {
   text-decoration: none;
-  color: royalblue;
   font-size: 18px;
 }
 

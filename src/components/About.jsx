@@ -13,7 +13,7 @@ function About() {
             <img className="profile-image" src={ProfileImage} alt="Cameron Allan" />
           </div>
           <div className="col-md-6">
-            <h2>Hi, I'm Cameron Allan</h2>
+            <h1 className='about-header'>Hi, <br></br> I'm Cameron</h1>
             <p>I'm a frontend developer from Noblesville, Indiana.</p>
             <p>
               I specialize in creating clean and modern user interfaces using ReactJS and VueJS.

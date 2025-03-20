@@ -1,5 +1,5 @@
 * {
-  background-color: lightgray;
+  background-color: white;
 }
 
 .app {
@@ -11,9 +11,6 @@
 }
 
 .content-wrapper {
-  margin: 0vh 4vw;
-  border-right: 1px solid black;
-  border-left: 1px solid black;
   height: 100vh;
 }
 

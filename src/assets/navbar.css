@@ -5,19 +5,27 @@ ul li a {
 }
 
 ul li a:hover {
-  color: #00a8ff;
   text-decoration: none;
+
+}
+
+.link {
+  &:hover{
+    text-decoration: none;
+    color: #529ce8;
+
+  }
 }
 
 ul li a.active {
-  color: #00a8ff;
+  
 }
 
 nav {
   position: fixed;
   top: 0;
   width: 100%;
-  border-bottom: 1px solid black;
+  box-shadow: .1rem 0rem 1rem -0.8rem hsla(0, 0%, 17.6%, 0.3);
 }
 
 ul {

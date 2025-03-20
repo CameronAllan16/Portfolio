@@ -11,6 +11,10 @@
   font-size: 2rem;
 }
 
+.about-header {
+  font-size: 4rem;
+}
+
 .row {
   display: grid;
   grid-template-columns: 1fr 1fr;
