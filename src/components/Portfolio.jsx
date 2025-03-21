@@ -9,13 +9,32 @@ function Portfolio() {
 
       <div className="content-wrapper">
         <div className="content">
-          <div className='header-wrapper'>
-            <div className='header'>
-                <h2>Hello, welcome to my site</h2>
+          <div className="header-wrapper">
+            <div className="header">
+              <h1 className='header-content'>Welcome</h1>
             </div>
           </div>
-          <div className="body">
-            <p className="body-content">Some content will soon be here.</p>
+          <div className="body-wrapper">
+            <div className="body">
+              <p className="body-content">This is a body</p>
+            </div>
+            <div className="body">
+              <p className="body-content">This is a body</p>
+            </div>
+            <div className="body">
+              <p className="body-content">This is a body</p>
+            </div>
+            <div className="body">
+              <p className="body-content">This is a body</p>
+            </div>
+            <div className="body">
+              <p className="body-content">This is a body</p>
+            </div>
+          </div>
+          <div className='body-wrapper'>
+            <div className='body'>
+              <p className='body-content'>ong</p>
+            </div>
           </div>
         </div>
       </div>

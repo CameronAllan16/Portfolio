@@ -6,7 +6,13 @@ function Experience() {
   return (
     <div className="experience">
       <NavBar />
-      
+        <div className='experience-content-wrapper'>
+            <div className='title'>
+                <h1>Experience</h1>
+            </div>
+
+        </div>
+
       <Footer />
     </div>
   );

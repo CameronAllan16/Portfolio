@@ -13,6 +13,7 @@
 
 .about-header {
   font-size: 4rem;
+  margin-top: 12vh;
 }
 
 .row {
@@ -22,6 +23,8 @@
 
 .title-content h1 {
   margin-left: 2vw;
+  display: flex;
+  justify-content: center;
 }
 
 .card {

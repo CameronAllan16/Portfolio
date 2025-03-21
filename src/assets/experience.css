@@ -6,3 +6,12 @@
 }
 
 
+.experience-content-wrapper {
+    margin-top: 10vh;
+}
+
+.title h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+}
