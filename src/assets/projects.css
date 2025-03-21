@@ -18,7 +18,10 @@
 .row {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 10vh;
+}
+
+.title-content h1 {
+  margin-left: 2vw;
 }
 
 .card {
@@ -117,4 +120,8 @@
   .content-wrapper{
     margin: 0vh 3vw;
   }
+}
+
+.title-content h1 {
+  font-size: 5rem;
 }

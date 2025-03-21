@@ -12,10 +12,22 @@
 
 .content-wrapper {
   height: 100vh;
+  margin-top: 10vh;
+}
+
+.header-content{
+  font-size: 5rem;
+
 }
 
 .content {
   width: 100%;
+}
+
+.body-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
 }
 
 .body-content {
@@ -28,5 +40,4 @@
 }
 
 .header-wrapper {
-  padding-top: 10vh;
 }

@@ -7,6 +7,11 @@ function Projects() {
     <div className="Projects">
       <NavBar />
       <div className="content-wrapper">
+        <div className='title'>
+          <div className='title-content'>
+              <h1>Projects</h1>
+          </div>
+        </div>
         <div className="row">
           <div className="card">
             <div className="card-content">
@@ -38,11 +43,11 @@ function Projects() {
               <div className="card-content">
                 <h3>Portfolio</h3>
                 {/* <img className="project-image" src="image-2.jpg" alt="Portfolio" /> */}
-                <p>
+                {/* <p>
                   Believe it or not, this site was built entirely from scratch by me, using
                   React.JS. If you would like take a look at the repository if it holds information
                   you require to look at.
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="go-button">
