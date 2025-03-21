@@ -5,18 +5,28 @@ ul li a {
 }
 
 ul li a:hover {
-  color: #00a8ff;
   text-decoration: none;
+
+}
+
+.link {
+  height: 1.5rem;
+  width: 1.5rem;
+  &:hover{
+    text-decoration: none;
+    color: #529ce8;
+
+  }
 }
 
 ul li a.active {
-  color: #00a8ff;
+  
 }
 
 nav {
   position: fixed;
   top: 0;
-  width: 100%;
+  background: none;
 }
 
 ul {
@@ -25,7 +35,6 @@ ul {
   left: 0;
   justify-content: right;
   display: flex;
-  margin: 2% 2%;
   gap: 1em;
   background-color: none;
 }
@@ -36,18 +45,35 @@ ul {
   width: 100%;
   display: flex;
   background-color: none;
+  z-index: 2;
+  box-shadow: .1rem 0rem 1rem -0.8rem hsla(0, 0%, 17.6%, 0.3);
+  justify-content: left;
+  gap: 68%;
+}
+
+.nav-content p.title {
+  margin: 1.5vh 0px 0px 1vw;
+}
+
+.nav-content {
+  height: 6vh;
 }
 
 .title {
-  margin: 2% 2%;
   font-family: 'Roboto Mono', monospace;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  z-index: 1;
+  font-size: 22px;
+  z-index: 9999;
 }
 
 a {
   text-decoration: none;
 }
+
+@media only screen and (max-width: 600px) {
+  
+}
+
 

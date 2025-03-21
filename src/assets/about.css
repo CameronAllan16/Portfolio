@@ -1,38 +1,44 @@
-
 .about {
   max-width: 100%;
-  margin: 25vh auto;
   background-color: lightgray;
   font-family: 'Roboto Mono', monospace;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  margin-top: 65.4px;
 }
 
 .section-title {
   text-align: center;
   font-weight: bold;
-  margin-bottom: 30px;
 }
 
-.row {
+.col {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -15px;
+  height: 100vh;
 }
 
 .col-md-6 {
   width: calc(50% - 30px);
-  margin: 0 15px 30px;
+  margin: 4vh auto;
 }
 
 .profile-image {
   max-width: 385px;
-  margin: 0 10vw;
+  margin: 3vh 12vw;
+  transform: perspective(1500px) rotateY(15deg);
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  transition: transform 1s ease 0s;
+
+  &:hover {
+    transform: perspective(3000px) rotateY(5deg);
+  }
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -40,4 +46,28 @@ h3 {
 p {
   font-size: 1rem;
   margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .profile-image {
+    max-width: 60%;
+    margin: 1vh 18vw 1vh;
+  }
+
+  .col {
+    height: auto;
+  }
+
+  .col-md-6 {
+    width: 95%;
+    display: flexbox;
+    margin: 0 3vw;
+  }
+  .about {
+    margin: 10vh 0 15vh;
+  }
+
+  .content-wrapper {
+    height: 110vh;
+  }
 }

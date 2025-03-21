@@ -3,22 +3,26 @@
 .footer {
   width: 100%;
   color: white;
-  padding: 50px 0;
   text-align: center;
   bottom: 0;
   left: 0;
   flex: 0 0 auto;
+  position: fixed;
+  height: 10vh;
+  z-index: 9999;
+  box-shadow: .1rem 0rem 1rem -0.8rem hsla(0, 0%, 17.6%, 0.3);
 }
 
 .socials {
   display: flex;
   justify-content: center;
   gap: 5%;
+  margin-top: 1.5%;
 }
 
 .link {
   text-decoration: none;
-  color: royalblue;
+  font-size: 18px;
 }
 
 .link:hover {
@@ -44,4 +48,17 @@
 .svg-icon circle {
   stroke: #4691f6;
   stroke-width: 1;
+}
+
+.copywrite {
+  line-height: 5px;
+  color: black;
+  font-weight: 100;
+  font-size: small;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    height: 5vh;
+  }
 }

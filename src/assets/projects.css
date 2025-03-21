@@ -1,41 +1,130 @@
-
-
 .Projects {
-  margin: 25vh auto;
+  margin-top: 65.4px;
   font-family: 'Roboto Mono', monospace;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  width: 100%;
 }
 .section-title {
   text-align: center;
-  font-weight: bold;
-  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.about-header {
+  font-size: 4rem;
+  margin-top: 12vh;
 }
 
 .row {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 -15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-.col-sm-6 {
-  width: calc(50% - 30px);
-  margin: 0 15px 30px;
+.title-content h1 {
+  margin-left: 2vw;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  border: 0.5px solid gray;
+  margin: 30px 30px 30px;
+  display: grid;
+  grid-template-columns: 10fr 0.5fr;
+  cursor: pointer;
+  z-index: 1;
+  max-height: 350px;
+  &:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: 1px solid black;
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: #00838d;
+    height: 32px;
+    width: 32px;
+    transform: scale(2);
+    transform-origin: 50% 50%;
+    transition: transform 0.15s ease-out;
+  }
+
+  &:hover:before {
+    transform: scale(2.15);
+  }
 }
 
 .project-image {
   width: 100%;
-  margin-bottom: 10px;
 }
 
-h3 {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 10px;
+
+
+.card-content {
+  margin: 0 2vw;
 }
 
-p {
-  font-size: 1rem;
-  margin-bottom: 0;
+.col-sm-6 h3 {
+  margin: 15px 20px;
+}
+
+.card-content p {
+  margin-bottom: 20px;
+}
+
+.svg-icon {
+  width: 1em;
+  height: 1em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: black;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+
+.expanded-project {
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.go-button {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+
+@media only screen and (max-width: 500px) {
+  .row {
+    display: block;
+  }
+
+  .card {
+    margin: 30px 12px 30px;
+  }
+
+  .content-wrapper{
+    margin: 0vh 3vw;
+  }
+}
+
+.title-content h1 {
+  font-size: 5rem;
 }
