@@ -11,9 +11,9 @@ export default function App() {
   return (
     <>
       <Routes>
-          <Route path="/" element={<Portfolio/>}/>
+          <Route path="/" element={<About/>}/>
           <Route path="/projects" element={<Projects/>}/>
-          <Route path="/about" element={<About/>}/>
+          <Route path="/about" element={<Portfolio/>}/>
           <Route path="/experience" element={<Experience/>}/>
       </Routes>
     </>
