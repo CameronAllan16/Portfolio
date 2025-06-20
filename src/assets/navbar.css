@@ -71,47 +71,5 @@ a {
   text-decoration: none;
 }
 
-@media (max-width: 768px) {
-  .brand {
-  font-size: 1.5rem;
-  background-color: none;
-}
-  .navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #333;
-  color: white;
-  padding: 0.5rem 1rem;
-  position: relative;
-}
-
-.hamburger {
-  font-size: 1.8rem;
-  background: none;
-  border: none;
-  color: white;
-  cursor: pointer;
-  display: none;
-}
-  .hamburger {
-    display: block;
-  }
-
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    right: 0;
-    background-color: #444;
-    padding: 1rem;
-    width: 200px;
-  }
-
-  .nav-links.active {
-    display: flex;
-  }
-}
 
 

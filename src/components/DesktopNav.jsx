@@ -1,12 +1,15 @@
 import { NavLink } from 'react-router-dom';
-import '../assets/navbar.css';
+import '../assets/DesktopNav.css';
 
 const DesktopNav = () => {
   return (
     <div className="nav-bar">
       <div className="nav-content">
         <nav className="navigation">
-          <p className="brand">Cameron Allan</p>
+          <div className="brand-container">
+            <p className="brand">Cameron Allan</p>
+          </div>
+
           <ul>
             <li>
               <NavLink to="/">Home</NavLink>
