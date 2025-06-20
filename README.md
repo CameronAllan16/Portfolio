@@ -2,7 +2,7 @@
 
 ##If you're here for the actual site. [Follow Me](https://camallan.com/)
 
-A web-page I actually put in the effort for to host on a public domain :0
+A web-page I actually put in the effort, to host on a public domain :0  \
 So hopefully I put some effort into it!
 
 If you so desire to clone this project you can follow these steps:
