@@ -24,7 +24,7 @@ nav {
   top: 0;
   background: none;
   display: flex;
-  gap: 65%;
+  gap: 76%;
   width: 100%;
 }
 
@@ -68,6 +68,36 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+@media (max-width: 2300px) {
+  nav {
+    gap: 75%;
+  }
+}
+
+@media (max-width: 2150px) {
+  nav {
+    gap: 74%;
+  }
+}
+
+@media (max-width: 2085px) {
+  nav {
+    gap: 72%;
+  }
+}
+
+@media (max-width: 1915px) {
+  nav {
+    gap: 70%;
+  }
+}
+
+@media (max-width: 1600px) {
+  nav {
+    gap: 65%;
+  }
 }
 
 @media (max-width: 1300px){

@@ -7,9 +7,9 @@
   bottom: 0;
   left: 0;
   flex: 0 0 auto;
-  position: fixed;
-  height: 10vh;
+  height: 6vh;
   z-index: 9999;
+  margin-top: 1vh;
   box-shadow: .1rem 0rem 1rem -0.8rem hsla(0, 0%, 17.6%, 0.3);
 }
 
@@ -17,7 +17,7 @@
   display: flex;
   justify-content: center;
   gap: 5%;
-  margin-top: 1.5%;
+  margin-top: 2vh;
 }
 
 .link {
