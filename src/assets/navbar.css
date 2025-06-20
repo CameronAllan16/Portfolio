@@ -1,7 +1,8 @@
 /* index.css */
 ul li a {
-  color: #000;
+  color: white;
   background-color: none;
+  font-size: 1.2rem;
 }
 
 ul li a:hover {
@@ -43,7 +44,6 @@ ul {
   position: fixed;
   top: 0;
   width: 100%;
-  display: flex;
   background-color: none;
   z-index: 2;
   box-shadow: .1rem 0rem 1rem -0.8rem hsla(0, 0%, 17.6%, 0.3);
@@ -53,6 +53,11 @@ ul {
 
 .nav-content p.title {
   margin: 1.5vh 0px 0px 1vw;
+}
+.brand {
+  font-size: 1.5rem;
+  background-color: none
+  ;
 }
 
 .nav-content {
@@ -72,8 +77,44 @@ a {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 600px) {
-  
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  color: white;
+  padding: 0.5rem 1rem;
+  position: relative;
+}
+
+.hamburger {
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #444;
+    padding: 1rem;
+    width: 200px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
 }
 
 

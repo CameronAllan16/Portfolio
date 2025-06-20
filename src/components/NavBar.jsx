@@ -1,33 +1,41 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import '../assets/navbar.css';
 
-function NavBar() {
+const NavBar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen((prev) => !prev);
+  };
+
   return (
     <div className="nav-bar">
+        
       <div className="nav-content">
-        <p className="title">Cameron Allan</p>
-      </div>
-      <div className="nav-content">
-        <nav>
-          <ul>
+        <nav className="navigation">
+          <p className="brand">Cameron Allan</p>
+          <button className="hamburger" onClick={toggleMenu}>
+            {menuOpen ? '✖' : '☰'}
+          </button>
+          <ul className={`nav-links ${menuOpen ? 'active' : ''}`}>
             <li>
-              <NavLink className="link" to="/">
+              <NavLink  to="/">
                 Home
               </NavLink>
             </li>
             <li>
-              <NavLink className="link" to="/About">
+              <NavLink  to="/About">
                 About
               </NavLink>
             </li>
             <li>
-              <NavLink className="link" to="/Projects">
+              <NavLink  to="/Projects">
                 Projects
               </NavLink>
             </li>
             <li>
-              <NavLink className="link" to="/Experience">
+              <NavLink  to="/Experience">
                 Experience
               </NavLink>
             </li>
@@ -36,6 +44,6 @@ function NavBar() {
       </div>
     </div>
   );
-}
+};
 
 export default NavBar;
