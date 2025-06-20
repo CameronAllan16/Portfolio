@@ -20,10 +20,6 @@ ul li a:hover {
   }
 }
 
-ul li a.active {
-  
-}
-
 nav {
   position: fixed;
   top: 0;
