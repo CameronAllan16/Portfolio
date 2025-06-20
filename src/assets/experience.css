@@ -8,6 +8,7 @@
 
 .experience-content-wrapper {
     margin-top: 10vh;
+    min-height: 70dvh;
 }
 
 .title h1 {

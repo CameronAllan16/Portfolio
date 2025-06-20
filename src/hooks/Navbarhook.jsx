@@ -11,6 +11,8 @@ import {useState, useEffect} from 'react';
 //     return isMobile;
 //   };
 
+
+//I like this one better so using this
   const useIfMobile = (query = '(max-width: 768px)') => {
     const [matches, setMatches] = useState(() => window.matchMedia(query).matches);
 
@@ -23,5 +25,7 @@ import {useState, useEffect} from 'react';
 
     return matches;
   };
+
+
 
   export default useIfMobile;

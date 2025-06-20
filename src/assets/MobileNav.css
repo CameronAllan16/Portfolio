@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
   .brand {
-  font-size: .7rem;
+  font-size: 1rem;
   color: black;
   background-color: none;
   margin-left: 0;
@@ -48,6 +48,6 @@
 
   .nav-links.active {
     display: flex;
-    color: lightblue;
+    color: blue;
   }
 }

@@ -17,6 +17,7 @@
 
 .content {
   width: 100%;
+  min-height: 70dvh;
 }
 
 .body-wrapper {
@@ -28,6 +29,7 @@
 .body-content {
   display: flex;
   justify-content: center;
+
 }
 
 .header {
