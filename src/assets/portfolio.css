@@ -7,17 +7,15 @@
 }
 
 .content-wrapper {
-  height: 100vh;
+  min-height: 82dvh;
 }
 
 .header-content{
   font-size: 4rem;
-  margin-top: 12vh;
 }
 
 .content {
   width: 100%;
-  min-height: 70dvh;
 }
 
 .body-wrapper {
