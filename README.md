@@ -1,5 +1,7 @@
 # Welcome to my portfolio
 
+##If you're here for the actual site. [Follow Me](https://camallan.com/)
+
 A web-page I actually put in the effort for to host on a public domain :0
 So hopefully I put some effort into it!
 
