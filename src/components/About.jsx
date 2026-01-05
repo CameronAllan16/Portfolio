@@ -17,7 +17,7 @@ function About() {
               <h1 className="about-header">
                 Hi, <br></br> I'm Cameron
               </h1>
-              <p>I'm a frontend developer from Noblesville, Indiana.</p>
+              <p>I'm a developer from Noblesville, Indiana.</p>
               <p>
                 I specialize in creating clean and modern user interfaces using ReactJS and VueJS.
               </p>

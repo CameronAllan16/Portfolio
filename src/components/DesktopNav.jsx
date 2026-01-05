@@ -20,9 +20,6 @@ const DesktopNav = () => {
             <li>
               <NavLink to="/Projects">Projects</NavLink>
             </li>
-            <li>
-              <NavLink to="/Experience">Experience</NavLink>
-            </li>
           </ul>
         </nav>
       </div>

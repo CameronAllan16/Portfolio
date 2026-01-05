@@ -4,7 +4,6 @@ import './assets/App.css';
 import Portfolio from './components/Portfolio';
 import Projects from './components/Projects';
 import About from './components/About';
-import Experience from './components/Experience';
 
 
 export default function App() {
@@ -14,7 +13,6 @@ export default function App() {
           <Route path="/" element={<About/>}/>
           <Route path="/projects" element={<Projects/>}/>
           <Route path="/about" element={<Portfolio/>}/>
-          <Route path="/experience" element={<Experience/>}/>
       </Routes>
     </>
   );
