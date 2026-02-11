@@ -1,4 +1,5 @@
 import '../assets/about.css';
+import React from 'react';
 import ProfileImage from '../assets/pic-of-me.JPG';
 import NavBar from './NavBar';
 import Footer from './Footer';
@@ -11,12 +12,10 @@ function About() {
         <div className="col">
           <div className="col-content-wrapper">
             <div className="col-md-6">
-              <img className="profile-image" src={ProfileImage} alt="Cameron Allan" />
-            </div>
-            <div className="col-md-6">
               <h1 className="about-header">
                 Hi, <br></br> I'm Cameron
               </h1>
+              <img className="profile-image" src={ProfileImage} alt="Cameron Allan" />
               <p>I'm a developer from Noblesville, Indiana.</p>
               <p>
                 I specialize in creating clean and modern user interfaces using ReactJS and VueJS.
