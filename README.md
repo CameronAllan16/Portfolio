@@ -8,5 +8,5 @@ So hopefully I put some effort into it!
 If you so desire to clone this project you can follow these steps:
 
 1. clone the repository in your favorite IDE
-2. once initialized open a terminal window and run `npm install` to download the needed packages
-3. from that same terminal you can now run `npm start` and paste either of the links in your browser
+2. once initialized open a terminal window and navigate inside of the `my-portfolio` folder, and run `npm install` to download the needed packages
+3. from that same terminal you can now run `npm run dev` and follow the link that is pasted into your terminal
