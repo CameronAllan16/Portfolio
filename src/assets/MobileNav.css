@@ -1,6 +1,7 @@
 @media (max-width: 768px) {
   .nav-bar{
     position: sticky;
+    background: white;
   }
 
   .brand {

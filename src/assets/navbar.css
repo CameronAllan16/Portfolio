@@ -38,11 +38,11 @@ ul {
 }
 
 .nav-bar {
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
-  background-color: none;
-  z-index: 2;
+  background: white;
+  z-index: 1000;
   box-shadow: .1rem 0rem 1rem -0.8rem hsla(0, 0%, 17.6%, 0.3);
   justify-content: left;
   gap: 68%;
