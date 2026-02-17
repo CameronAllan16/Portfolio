@@ -20,9 +20,9 @@ function SidePanel({ card, onClose }) {
       >
         {card && (
           <>
-            <h2>{card.title}</h2>
-            <img src={card.image} alt={card.title} />
-            <p>{card.description}</p>
+            <h2 className="side-panel-title">{card.title}</h2>
+            <img className="side-panel-img" src={card.image} alt={card.title} />
+            <p className="long-description">{card.longDescription}</p>
           </>
         )}
       </div>
