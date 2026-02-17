@@ -12,7 +12,7 @@ function Portfolio() {
         <div className="content">
           <div className="header-wrapper">
             <div className="header">
-              <h1 className='header-content'>Welcome</h1>
+              <h1 className='header-content'>Services</h1>
             </div>
           </div>
           <div className="body-wrapper">
