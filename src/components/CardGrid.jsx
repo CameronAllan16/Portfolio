@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../assets/cardGrid.css";
 import React from "react";
 import ExpandableCard from "./ExpandableCard";
 import SidePanel from "./SidePanel";
