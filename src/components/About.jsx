@@ -1,6 +1,6 @@
 import '../assets/about.css';
 import React from 'react';
-import ProfileImage from '../assets/pic-of-me.JPG';
+import ProfileImage from '../assets/data/pic-of-me.JPG';
 import NavBar from './NavBar';
 import Footer from './Footer';
 
@@ -29,13 +29,9 @@ function About() {
             </div>
           </div>
           <div className="col">
-            <div className="col-content-wrapper" id="about-02">
-              <h1 className="services-title"> Services </h1>
-            </div>
           </div>
         </div>
       </div>
-      <div className='whitespace'></div>
       <Footer />
     </div>
   );
