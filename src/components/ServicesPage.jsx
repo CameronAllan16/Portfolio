@@ -3,7 +3,7 @@ import React from 'react';
 import Footer from './Footer';
 import NavBar from './NavBar';
 
-function Portfolio() {
+function ServicesPage() {
   return (
     <div className="app">
       <NavBar />
@@ -44,4 +44,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default ServicesPage;

@@ -4,7 +4,7 @@ import ProfileImage from '../assets/data/pic-of-me.JPG';
 import NavBar from './NavBar';
 import Footer from './Footer';
 
-function About() {
+function AboutPage() {
   return (
     <div className="about">
       <NavBar />
@@ -37,4 +37,4 @@ function About() {
   );
 }
 
-export default About;
+export default AboutPage;

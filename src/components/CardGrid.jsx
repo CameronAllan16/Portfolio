@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "../assets/cardGrid.css";
 import React from "react";
-import ExpandableCard from "./ExpandableCard";
+import ProjectCard from "./ProjectCard";
 import SidePanel from "./SidePanel";
 
 function CardGrid({ cards }) {
@@ -11,7 +11,7 @@ function CardGrid({ cards }) {
     <>
       <div className="card-grid">
         {cards.map((card, index) => (
-          <ExpandableCard
+          <ProjectCard
             key={index}
             {...card}
             onClick={() => setSelectedCard(card)}

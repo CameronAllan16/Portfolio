@@ -12,9 +12,9 @@ const projectCards = [
   {
     title: 'Portfolio',
     shortDescription:
-      'This portfolio website built using React to showcase my projects and skills.',
+      'The current website you are on! This portfolio website built using React to showcase my projects and skills.',
     longDescription:
-      'This portfolio website built using React to showcase my projects and to showcase my skills as a sandbox.',
+      'I built this portfolio website using React to showcase my projects and to develop my skills. This website acts as a sandbox for my creative endeavors but also a central hub for my professional career development. The website features a responsive design, making it accessible on both desktop and mobile devices.',
     image: Img1
   }
 ];

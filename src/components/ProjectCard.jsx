@@ -1,7 +1,7 @@
 import React from "react";
-import "../assets/expandableCard.css";
+import "../assets/projectCard.css";
 
-function ExpandableCard({ title, shortDescription, onClick }) {
+function ProjectCard({ title, shortDescription, onClick }) {
   return (
     <div className="card" onClick={onClick}>
       <div className="card-content">
@@ -12,4 +12,4 @@ function ExpandableCard({ title, shortDescription, onClick }) {
   );
 }
 
-export default ExpandableCard;
+export default ProjectCard;
