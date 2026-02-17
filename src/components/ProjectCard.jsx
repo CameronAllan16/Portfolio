@@ -1,15 +1,25 @@
 import React from "react";
-import "../assets/projectCard.css";
+import '../assets/projectCard.css';
 
-function ProjectCard({ title, shortDescription, onClick }) {
+export default function ProjectCard({ project, onSelect }) {
+  const handleClick = () => {
+    onSelect(project);
+  };
+
   return (
-    <div className="card" onClick={onClick}>
-      <div className="card-content">
-        <h3>{title}</h3>
-        <p>{shortDescription}</p>
+    <div className="project-card" onClick={handleClick}>
+      {project.image && (
+        <img 
+          src={project.image} 
+          alt={project.title} 
+          className="project-image"
+        />
+      )}
+
+      <div className="project-content">
+        <h3>{project.title}</h3>
+        <p>{project.shortDescription}</p>
       </div>
     </div>
   );
 }
-
-export default ProjectCard;
