@@ -22,6 +22,7 @@
   margin-left: 2dvw;
   display: flex;
   justify-content: center;
+  font-size: 3.6rem;
 }
 
 .card {
@@ -80,8 +81,4 @@
   .content-wrapper{
     margin: 0dvh 3dvw;
   }
-}
-
-.title-content h1 {
-  font-size: 5rem;
 }
