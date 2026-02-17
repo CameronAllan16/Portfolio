@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import React from 'react';
-import '../assets/DesktopNav.css';
+import '../assets/styles/DesktopNav.css';
 
 const DesktopNav = () => {
   return (

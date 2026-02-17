@@ -1,4 +1,4 @@
-import '../assets/projectPage.css';
+import '../assets/styles/projectPage.css';
 import React from 'react';
 import { useState } from 'react';
 import NavBar from './NavBar';

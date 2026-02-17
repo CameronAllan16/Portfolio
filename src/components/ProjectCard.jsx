@@ -1,5 +1,5 @@
 import React from "react";
-import '../assets/projectCard.css';
+import '../assets/styles/projectCard.css';
 
 export default function ProjectCard({ project, onSelect }) {
   const handleClick = () => {

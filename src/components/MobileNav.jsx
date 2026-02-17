@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import '../assets/MobileNav.css';
+import '../assets/styles/MobileNav.css';
 
 const MobileNav = () => {
   const [menuOpen, setMenuOpen] = useState(false);

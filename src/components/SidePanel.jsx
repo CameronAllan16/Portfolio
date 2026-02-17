@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import React from "react";
-import "../assets/sidePanel.css";
+import "../assets/styles/sidePanel.css";
 
 function SidePanel({ card, onClose }) {
   useEffect(() => {

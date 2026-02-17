@@ -1,4 +1,4 @@
-import '../assets/portfolio.css';
+import '../assets/styles/portfolio.css';
 import React from 'react';
 import Footer from './Footer';
 import NavBar from './NavBar';

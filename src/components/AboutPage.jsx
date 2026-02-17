@@ -1,4 +1,4 @@
-import '../assets/about.css';
+import '../assets/styles/about.css';
 import React from 'react';
 import ProfileImage from '../assets/data/pic-of-me.JPG';
 import NavBar from './NavBar';

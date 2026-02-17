@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../assets/cardGrid.css";
+import "../assets/styles/cardGrid.css";
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import SidePanel from "./SidePanel";
