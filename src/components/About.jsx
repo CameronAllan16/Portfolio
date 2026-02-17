@@ -10,12 +10,14 @@ function About() {
       <NavBar />
       <div className="content-wrapper">
         <div className="col">
-          <div className="col-content-wrapper">
+          <div className="col-content-wrapper" id="about-01">
+            <div className="col-md-6">
+              <img className="profile-image" src={ProfileImage} alt="Cameron Allan" />
+            </div>
             <div className="col-md-6">
               <h1 className="about-header">
                 Hi, <br></br> I'm Cameron
               </h1>
-              <img className="profile-image" src={ProfileImage} alt="Cameron Allan" />
               <p>I'm a developer from Noblesville, Indiana.</p>
               <p>
                 I specialize in creating clean and modern user interfaces using ReactJS and VueJS.
@@ -26,8 +28,14 @@ function About() {
               </p>
             </div>
           </div>
+          <div className="col">
+            <div className="col-content-wrapper" id="about-02">
+              <h1 className="services-title"> Services </h1>
+            </div>
+          </div>
         </div>
       </div>
+      <div className='whitespace'></div>
       <Footer />
     </div>
   );

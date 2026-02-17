@@ -12,12 +12,22 @@
 }
 
 .col-content-wrapper {
-  margin-top: 6dvh;
   display: flex;
   flex-wrap: wrap;
 }
 
+.services-title {
+  font-size: 2.4rem;
+  margin: 1vh 2vw;
+
+}
+
+.whitespace {
+  height: 10vh;
+}
+
 .col-md-6 {
+  margin: 4vh auto;
   width: calc(50% - 30px);
 }
 
@@ -27,8 +37,8 @@
 }
 
 .profile-image {
+  margin: 3vh 11vw;
   max-width: 385px;
-  margin: 3dvh 12dvw;
   transform: perspective(1500px) rotateY(15deg);
   border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
