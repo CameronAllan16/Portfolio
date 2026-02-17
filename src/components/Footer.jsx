@@ -57,7 +57,7 @@ function Footer() {
                 clip-rule="evenodd"></path>
             </svg>
           </a>
-          <p className="copywrite">Cameron Allan 2024 ©</p>
+          <p className="copywrite">Cameron Allan 2026 ©</p>
         </div>
       </div>
     </footer>
