@@ -3,21 +3,9 @@ import React from 'react';
 import NavBar from './NavBar';
 import Footer from './Footer';
 import CardGrid from './CardGrid';
-import Img1 from '../assets/pic-of-me.JPG';
+import projectCards from '../assets/data/projectCards';
 
-const projectCards = [
-  {
-    title: 'Estate Vault',
-    description:
-      'EstateVault is an all-in-on estate management system where estate owners can store and manage their important estate documents.',
-    image: 'my-portfolio/src/assets/pic-of-me.JPG'
-  },
-  {
-    title: 'Portfolio',
-    description: 'This portfolio website built using React to showcase my projects and skills.',
-    image: Img1
-  }
-];
+
 
 function Projects() {
   return (
