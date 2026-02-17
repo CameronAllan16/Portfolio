@@ -2,18 +2,36 @@ import '../assets/projects.css';
 import React from 'react';
 import NavBar from './NavBar';
 import Footer from './Footer';
+import CardGrid from './CardGrid';
+import Img1 from '../assets/pic-of-me.JPG';
+
+const projectCards = [
+  {
+    title: 'Estate Vault',
+    description:
+      'EstateVault is an all-in-on estate management system where estate owners can store and manage their important estate documents.',
+    image: 'my-portfolio/src/assets/pic-of-me.JPG'
+  },
+  {
+    title: 'Portfolio',
+    description: 'This portfolio website built using React to showcase my projects and skills.',
+    image: Img1
+  }
+];
 
 function Projects() {
   return (
     <div className="Projects">
       <NavBar />
+
       <div className="content-wrapper">
-        <div className='title'>
-          <div className='title-content'>
-              <h1>Projects</h1>
+        <div className="title">
+          <div className="title-content">
+            <h1>Projects</h1>
           </div>
         </div>
-        <div className="row">
+        {<CardGrid cards={projectCards} />}
+        {/* <div className="row">
           <div className="card">
             <div className="card-content">
               <h3>Estate Vault</h3>
@@ -25,8 +43,7 @@ function Projects() {
                 connections with the user.
               </p>
             </div>
-            <div className="go-button">
-            </div>
+            <div className="go-button"></div>
           </div>
           <div className="card">
             <div className="card-content">
@@ -34,10 +51,9 @@ function Projects() {
                 <h3>Portfolio</h3>
               </div>
             </div>
-            <div className="go-button">
-            </div>
+            <div className="go-button"></div>
           </div>
-        </div>
+        </div> */}
       </div>
       <Footer />
     </div>
