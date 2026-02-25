@@ -9,7 +9,7 @@
   height: 6vh;
   z-index: 9998;
   box-shadow: .1rem 0rem 1rem -0.8rem hsla(0, 0%, 17.6%, 0.3);
-  margin-top: 15vh;
+  flex-shrink: 0;
 }
 
 .socials {

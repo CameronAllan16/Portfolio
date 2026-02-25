@@ -9,7 +9,6 @@ function AboutPage() {
     <div className="about">
       <NavBar />
       <div className="content-wrapper">
-        <div className="col">
           <div className="col-content-wrapper" id="about-01">
             <div className="col-md-6">
               <img className="profile-image" src={ProfileImage} alt="Cameron Allan" />
@@ -28,9 +27,6 @@ function AboutPage() {
               </p>
             </div>
           </div>
-          <div className="col">
-          </div>
-        </div>
       </div>
       <Footer />
     </div>
