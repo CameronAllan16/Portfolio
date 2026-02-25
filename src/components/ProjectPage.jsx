@@ -6,9 +6,9 @@ import Footer from './Footer';
 import Modal from './Modal';
 import ProjectCard from './ProjectCard';
 import projects from '../assets/data/projectCards.jsx';
+import Stack from '../assets/icons/stack.png';
 
 function ProjectPage() {
-
   const [selectedProject, setSelectedProject] = useState(null);
   return (
     <div className="Projects">
@@ -34,8 +34,9 @@ function ProjectPage() {
                   <p>{selectedProject.longDescription}</p>
                   <ul>
                     {selectedProject.tech.map((tech, i) => (
-                      <li key={i}>{tech}</li>
+                      <li className='tech-stack-item' key={i}>{tech}</li>
                     ))}
+                    <img src={Stack} alt="Tech Stack" className="tech-stack-icon" />
                   </ul>
                 </>
               )}

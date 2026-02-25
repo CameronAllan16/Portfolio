@@ -1,5 +1,5 @@
 html, .about {
-  min-height: 99vh;
+  min-height: 98vh;
   margin: 0;
 }
 
@@ -14,7 +14,7 @@ html, .about {
 
 .content-wrapper {
   flex: 1 0 auto;
-  margin-top: 10vh;
+  margin-top: 5vh;
 }
 
 
@@ -27,6 +27,7 @@ html, .about {
 .col-content-wrapper {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 5vw;
 }
 
 .services-title {
@@ -49,7 +50,7 @@ html, .about {
 }
 
 .profile-image {
-  margin: 3vh 11vw;
+  margin: 3vh 10vw;
   max-width: 385px;
   transform: perspective(1500px) rotateY(15deg);
   border-radius: 1rem;
@@ -61,15 +62,9 @@ html, .about {
   }
 }
 
-h3 {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
 p {
   font-size: 1.2rem;
-  margin-bottom: 10px;
+  margin-bottom: 1.5rem;
 }
 
 @media only screen and (max-width: 768px) {
